@@ -1,0 +1,31 @@
+{
+    "name": "messerli90/taggy",
+    "description": "An eloquent tagging package for Laravel",
+    "authors": [
+        {
+            "name": "Michael Messerli",
+            "email": "michaelamesserli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Messerli90\\Taggy\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": ">= 5.0",
+        "illuminate/support": ">= 5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/stubs/PostStub.php",
+            "tests/stubs/TagStub.php"
+        ]
+    }
+}
